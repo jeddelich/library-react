@@ -3,8 +3,7 @@ import React from 'react'
 import { books } from '../data'
 
 export default function Featured() {
-    console.log(books);
-        console.log(books.filter(book => book.rating === 5).slice(0,4));
+    
     function getFiveStarBooks() {
 
     }
